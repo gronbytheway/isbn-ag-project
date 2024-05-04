@@ -5,8 +5,6 @@ from services.record_service import RecordService
 
 record_api = Blueprint('record_api', __name__)
 
-#Esta es una prueba
-
 # Create Driver
 @record_api.route('/api/record/driver', methods=['POST'])
 def create_record_controller():
