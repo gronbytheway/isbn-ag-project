@@ -14,9 +14,7 @@ class RecordDriverService:
             "telefono": data['telefono'],
             "Placa": data['Placa']
             }
-
         user = create_driver(driver_data)
-
         return True
     
     @staticmethod
